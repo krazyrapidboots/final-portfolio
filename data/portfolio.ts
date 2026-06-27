@@ -243,11 +243,19 @@ export const portfolio: PortfolioData = {
 
   /* ------------------------------- Social ------------------------------- */
   social: [
-    { label: "GitHub", href: "https://github.com/", icon: "github" },
-    { label: "LinkedIn", href: "https://www.linkedin.com/", icon: "linkedin" },
+    { label: "GitHub", href: "https://github.com/krazyrapidboots", icon: "github" },
+    {
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/in/densel-lacson-a086b640b/",
+      icon: "linkedin",
+    },
+    {
+      label: "OnlineJobs.ph",
+      href: "https://v2.onlinejobs.ph/jobseekers/info/5112099",
+      icon: "briefcase",
+    },
     { label: "Facebook", href: "https://www.facebook.com/", icon: "facebook" },
     { label: "Email", href: "mailto:densellacson015@gmail.com", icon: "mail" },
-    { label: "Phone", href: "tel:+639000000000", icon: "phone" },
   ],
 };
 

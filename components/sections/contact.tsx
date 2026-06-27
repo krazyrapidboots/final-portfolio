@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Send, Mail, Phone, MapPin, CheckCircle2, Loader2 } from "lucide-react";
+import { Send, Mail, MapPin, CheckCircle2, Loader2 } from "lucide-react";
 
 import { SectionHeading } from "@/components/section-heading";
 import { Reveal } from "@/components/motion-primitives";
@@ -46,7 +46,6 @@ export function Contact() {
 
   const contactItems = [
     { icon: Mail, label: "Email", value: person.email, href: `mailto:${person.email}` },
-    { icon: Phone, label: "Phone", value: person.phone, href: `tel:${person.phone.replace(/\s/g, "")}` },
     { icon: MapPin, label: "Location", value: person.location, href: undefined },
   ];
 

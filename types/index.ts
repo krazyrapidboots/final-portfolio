@@ -18,7 +18,15 @@ export interface SocialLink {
   label: string;
   href: string;
   /** lucide-react icon name, resolved in the component layer */
-  icon: "github" | "linkedin" | "facebook" | "mail" | "phone" | "instagram" | "youtube";
+  icon:
+    | "github"
+    | "linkedin"
+    | "facebook"
+    | "mail"
+    | "phone"
+    | "instagram"
+    | "youtube"
+    | "briefcase";
 }
 
 export interface Skill {

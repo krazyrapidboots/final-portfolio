@@ -8,6 +8,7 @@ import {
   Phone,
   Instagram,
   Youtube,
+  Briefcase,
   type LucideIcon,
 } from "lucide-react";
 import { motion } from "framer-motion";
@@ -23,6 +24,7 @@ const socialIconMap: Record<SocialLink["icon"], LucideIcon> = {
   phone: Phone,
   instagram: Instagram,
   youtube: Youtube,
+  briefcase: Briefcase,
 };
 
 export function SocialIcons({
