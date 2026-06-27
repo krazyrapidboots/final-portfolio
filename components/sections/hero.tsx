@@ -129,24 +129,6 @@ export function Hero() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
             </div>
-
-            {/* floating chips */}
-            <motion.div
-              animate={{ y: [0, 10, 0] }}
-              transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute -left-4 top-12 hidden rounded-2xl border border-white/10 bg-zinc-900/85 px-4 py-3 shadow-xl ring-1 ring-black/20 backdrop-blur-md sm:block"
-            >
-              <p className="text-xs text-zinc-400">Currently</p>
-              <p className="text-sm font-semibold text-white">Building with AI ⚡</p>
-            </motion.div>
-            <motion.div
-              animate={{ y: [0, -10, 0] }}
-              transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute -right-4 bottom-16 hidden rounded-2xl border border-white/10 bg-zinc-900/85 px-4 py-3 shadow-xl ring-1 ring-black/20 backdrop-blur-md sm:block"
-            >
-              <p className="text-xs text-zinc-400">Stack</p>
-              <p className="text-sm font-semibold text-white">Next.js · TS · AI</p>
-            </motion.div>
           </motion.div>
         </motion.div>
       </div>

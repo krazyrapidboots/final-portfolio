@@ -197,6 +197,7 @@ export const portfolio: PortfolioData = {
   ],
 
   /* ----------------------------- Experience ----------------------------- */
+  // Listed chronologically (earliest first) so the timeline reads top-to-bottom.
   experience: [
     {
       title: "BS Information Technology",
@@ -205,6 +206,14 @@ export const portfolio: PortfolioData = {
       description:
         "Pursuing a degree in Information Technology, building a strong foundation in programming, databases and software engineering.",
       type: "education",
+    },
+    {
+      title: "Portfolio Projects",
+      organization: "Personal",
+      period: "2022 — Present",
+      description:
+        "Designing and building management systems, dashboards, games and AI tools to sharpen my craft.",
+      type: "project",
     },
     {
       title: "Specialization in Game Development",
@@ -219,23 +228,15 @@ export const portfolio: PortfolioData = {
       organization: "Self-employed",
       period: "2023 — Present",
       description:
-        "Delivering web development, video editing, graphic design and virtual assistance for clients across platforms.",
+        "Delivering social media management, video editing, graphic design and virtual assistance for clients across platforms.",
       type: "work",
-    },
-    {
-      title: "Portfolio Projects",
-      organization: "Personal",
-      period: "2022 — Present",
-      description:
-        "Designing and building management systems, dashboards, games and AI tools to sharpen my craft.",
-      type: "project",
     },
     {
       title: "Continuous Learning",
       organization: "Online & Self-study",
-      period: "Always",
+      period: "Ongoing",
       description:
-        "Constantly leveling up in modern web frameworks, AI tooling and design — learning in public and shipping often.",
+        "Constantly leveling up in content creation, design, AI tooling and modern tech — learning in public and shipping often.",
       type: "learning",
     },
   ],
