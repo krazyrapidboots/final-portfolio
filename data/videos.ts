@@ -1,0 +1,125 @@
+import type { VideoProject } from "@/types";
+
+/**
+ * AI Content & Edited Videos — append an object to add a new video.
+ * Set `videoUrl` to a YouTube/Vimeo embed URL to play it inside the modal;
+ * leave it undefined to show the thumbnail with a play overlay.
+ */
+export const videos: VideoProject[] = [
+  {
+    id: "tiktok-product-ad",
+    title: "Viral TikTok Product Ad",
+    description:
+      "A punchy product ad edited for maximum retention with AI captions and a trending hook.",
+    thumbnail:
+      "https://images.unsplash.com/photo-1607968565043-36af90dde238?q=80&w=1200&auto=format&fit=crop",
+    platform: "TikTok",
+    editingSoftware: ["CapCut Pro"],
+    aiTools: ["ChatGPT", "AI Voice"],
+    tags: ["CapCut Pro", "ChatGPT", "AI Voice", "AI Workflow"],
+    videoUrl: "https://www.youtube.com/embed/ScMzIvxBSi4",
+    details: {
+      objective:
+        "Drive clicks and sales for a trending product with a 3-second hook and tight pacing.",
+      process:
+        "Scripted the hook with ChatGPT, generated a natural AI voiceover, then cut to the beat in CapCut Pro with auto-captions and zoom transitions.",
+      results:
+        "Strong watch-through and a noticeable lift in profile visits and link clicks.",
+    },
+  },
+  {
+    id: "ig-reel-brand",
+    title: "Instagram Brand Reel",
+    description:
+      "A sleek brand reel mixing motion text, AI-generated b-roll and crisp sound design.",
+    thumbnail:
+      "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=1200&auto=format&fit=crop",
+    platform: "Instagram",
+    editingSoftware: ["CapCut Pro", "Canva"],
+    aiTools: ["AI Images", "Claude"],
+    tags: ["CapCut Pro", "Canva", "AI Images", "Claude"],
+    videoUrl: "https://www.youtube.com/embed/ScMzIvxBSi4",
+    details: {
+      objective: "Elevate a brand's feed with a premium, on-brand reel.",
+      process:
+        "Built motion graphics in Canva, generated b-roll with AI image tools, and assembled everything in CapCut Pro with beat-matched cuts.",
+      results: "Higher saves and shares, with a more premium brand perception.",
+    },
+  },
+  {
+    id: "yt-short-explainer",
+    title: "YouTube Shorts Explainer",
+    description:
+      "A fast-paced explainer Short that turns a complex topic into 45 seconds of clarity.",
+    thumbnail:
+      "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?q=80&w=1200&auto=format&fit=crop",
+    platform: "YouTube Shorts",
+    editingSoftware: ["CapCut Pro"],
+    aiTools: ["ChatGPT", "AI Voice", "AI Workflow"],
+    tags: ["CapCut Pro", "ChatGPT", "AI Voice", "AI Workflow"],
+    videoUrl: "https://www.youtube.com/embed/ScMzIvxBSi4",
+    details: {
+      objective: "Explain a topic clearly and keep viewers to the last second.",
+      process:
+        "Outlined the script with ChatGPT, narrated with an AI voice, and used dynamic captions and visuals to reinforce each point.",
+      results: "Above-average retention and steady subscriber growth.",
+    },
+  },
+  {
+    id: "fb-reel-promo",
+    title: "Facebook Reels Promo",
+    description:
+      "A high-energy promo built for the Facebook Reels audience with bold text and quick cuts.",
+    thumbnail:
+      "https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?q=80&w=1200&auto=format&fit=crop",
+    platform: "Facebook Reels",
+    editingSoftware: ["CapCut Pro", "Canva"],
+    aiTools: ["AI Images", "ChatGPT"],
+    tags: ["CapCut Pro", "Canva", "AI Images", "ChatGPT"],
+    details: {
+      objective: "Promote an offer with a thumb-stopping first frame.",
+      process:
+        "Designed bold title cards in Canva, scripted with ChatGPT and edited rapid cuts in CapCut Pro.",
+      results: "Increased reach and click-throughs to the landing page.",
+    },
+  },
+  {
+    id: "ai-faceless-channel",
+    title: "Faceless AI Video",
+    description:
+      "A fully AI-assisted faceless video — script, voice and visuals generated and edited end to end.",
+    thumbnail:
+      "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1200&auto=format&fit=crop",
+    platform: "YouTube",
+    editingSoftware: ["CapCut Pro"],
+    aiTools: ["Claude", "AI Voice", "AI Images", "AI Workflow"],
+    tags: ["Claude", "AI Voice", "AI Images", "AI Workflow", "CapCut Pro"],
+    videoUrl: "https://www.youtube.com/embed/ScMzIvxBSi4",
+    details: {
+      objective: "Produce a polished long-form video without on-camera footage.",
+      process:
+        "Wrote the script with Claude, generated narration and visuals with AI, then edited and synced everything in CapCut Pro.",
+      results: "A repeatable, scalable workflow for faceless content.",
+    },
+  },
+  {
+    id: "ig-aesthetic-edit",
+    title: "Aesthetic Lifestyle Edit",
+    description:
+      "A moody, aesthetic lifestyle edit with color grading and ambient sound design.",
+    thumbnail:
+      "https://images.unsplash.com/photo-1516251193007-45ef944ab0c6?q=80&w=1200&auto=format&fit=crop",
+    platform: "Instagram",
+    editingSoftware: ["CapCut Pro"],
+    aiTools: ["AI Images"],
+    tags: ["CapCut Pro", "AI Images"],
+    details: {
+      objective: "Capture a vibe and grow an aesthetic-focused page.",
+      process:
+        "Color-graded clips, layered ambient audio and matched cuts to the music in CapCut Pro.",
+      results: "Strong saves and a cohesive, recognizable feed aesthetic.",
+    },
+  },
+];
+
+export default videos;
