@@ -254,7 +254,7 @@ export const portfolio: PortfolioData = {
       href: "https://v2.onlinejobs.ph/jobseekers/info/5112099",
       icon: "briefcase",
     },
-    { label: "Facebook", href: "https://www.facebook.com/", icon: "facebook" },
+    { label: "Facebook", href: "https://www.facebook.com/DNSELLL/", icon: "facebook" },
     { label: "Email", href: "mailto:densellacson015@gmail.com", icon: "mail" },
   ],
 };
