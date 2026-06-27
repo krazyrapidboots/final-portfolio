@@ -146,12 +146,6 @@ export function VideoCard({ video }: { video: VideoProject }) {
                 />
               </div>
 
-              {/* Before/After placeholder */}
-              <div className="grid gap-3 sm:grid-cols-2">
-                <Compare label="Before" />
-                <Compare label="After" highlight />
-              </div>
-
               <InfoBlock title="Client Objective" text={video.details.objective} />
               <InfoBlock title="Editing Process" text={video.details.process} />
               <InfoBlock title="Results" text={video.details.results} />
@@ -191,22 +185,6 @@ function ToolGroup({
           </Badge>
         ))}
       </div>
-    </div>
-  );
-}
-
-function Compare({ label, highlight = false }: { label: string; highlight?: boolean }) {
-  return (
-    <div
-      className={`flex aspect-video flex-col items-center justify-center rounded-xl border text-sm ${
-        highlight
-          ? "border-accent/40 bg-accent/5 text-accent"
-          : "border-border bg-secondary/40 text-muted-foreground"
-      }`}
-    >
-      <Clapperboard className="mb-2 h-6 w-6 opacity-70" />
-      <span className="font-medium">{label}</span>
-      <span className="text-xs opacity-70">Preview</span>
     </div>
   );
 }
